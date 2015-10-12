@@ -27,22 +27,28 @@ package beast.evolution.alignment;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Collection;
+import java.util.HashMap;
 
 import beast.core.Description;
 import beast.core.Input;
 import beast.core.BEASTObject;
+import beast.core.Citation;
 import beast.evolution.datatype.DataType;
 
-@Description("Single sequence in an alignment.")
+@Citation("Bricker, Justin.  Master's Thesis.  Florida State University, Department of Scientific Computing")
+@Description("Single sequence in an alignment WITH QUALITY DATA from FASTQ.")
 public class Sequence extends BEASTObject {
     public Input<Integer> totalCountInput = new Input<Integer>("totalcount", "number of states or the number of lineages for this species in SNAPP analysis");
     public Input<String> taxonInput = new Input<String>("taxon", "name of this species", Input.Validate.REQUIRED);
-    public Input<String> dataInput = new Input<String>("value",
+    public Input<String> dataInput = new Input<String>("sequenceData",
             "sequence data, either encoded as a string or as comma separated list of integers, or comma separated likelihoods/probabilities for each site if uncertain=true." +
-                    "In either case, whitespace is ignored.", Input.Validate.REQUIRED);
-    public Input<Boolean> uncertainInput = new Input<Boolean>("uncertain", "if true, sequence is provided as comma separated probabilities for each character, with sites separated by a semi-colons. In this formulation, gaps are coded as 1/K,...,1/K, where K is the number of states in the model.");
+            "In either case, whitespace is ignored.", Input.Validate.REQUIRED);
+    public Input<String> qualityInput = new Input<String>("value",
+            "sequence data, either encoded as a string or as comma separated list of integers, or comma separated likelihoods/probabilities for each site if uncertain=true." +
+            "In either case, whitespace is ignored.");
+    
 
-    protected boolean uncertain = false;
+    
     protected double[][] likelihoods = null;    
     public double[][] getLikelihoods() {
     	return likelihoods;
@@ -66,35 +72,68 @@ public class Sequence extends BEASTObject {
 
     @Override
     public void initAndValidate() throws Exception {
-    	if (uncertainInput.get() != null)  {
-    		uncertain = uncertainInput.get();    		
-    		if (uncertain) initProbabilities();    		
-    	}
+    	initProbabilities();    		
     } // initAndValidate
     
     public void initProbabilities() throws Exception {
     	   	
-    	String data = dataInput.get();
+    	String sdata = dataInput.get();
+    	String qdata = qualityInput.get();
+    	
         // remove spaces
-        data = data.replaceAll("\\s", "");
+        sdata = sdata.replaceAll("\\s", "");
+        String sStr = sdata.trim();
+        char[] sequence = sStr.toCharArray();
         
-        String sStr = data.trim();		
-		String[] strs = sStr.split(";");		
-		for (int i=0; i<strs.length; i++) {
-			String[] pr = strs[i].split(",");
-			//double total = 0;
-    		for (int j=0; j<pr.length; j++) {    			
-    			if (likelihoods == null) likelihoods = new double[strs.length][pr.length];
-    			likelihoods[i][j] = Double.parseDouble(pr[j].trim());
-    			//total += likelihoods[i][j]; 
-    		}    		
-		}
+      //ACGT
+  		HashMap<Character, Integer> bases = new HashMap<Character, Integer>();
+  	    bases.put('A', 0);
+  	    bases.put('C', 1);
+  	    bases.put('G', 2);
+  	    bases.put('T', 3);
+        
+        if(qdata != null){
+        	qdata = qdata.replaceAll("\\s", "");
+        	String qStr = qdata.trim();
+        	char[] quality = qStr.toCharArray();
+        	
+        	double error;
+    		for(int i=0; i<sequence.length; i++){
+    			error = qualToLikelihood(quality[i]);
+    			for(int j=0; j<4; j++){
+    				if (likelihoods == null) likelihoods = new double[sequence.length][4];
+    				likelihoods[i][j] = error/3;
+    			}
+    			int seqCharIndex = bases.get(sequence[i]);
+    			likelihoods[i][seqCharIndex] = 1-error;
+    		}
+        }
+        else{
+        	for(int i=0; i<sequence.length; i++){
+    			for(int j=0; j<4; j++){
+    				if (likelihoods == null) likelihoods = new double[sequence.length][4];
+    				likelihoods[i][j] = 0;
+    			}
+    			int seqCharIndex = bases.get(sequence[i]);
+    			likelihoods[i][seqCharIndex] = 1;
+        	}
+        }
+		
+		
+		
+		
     }
 
-    public List<Integer> getSequence(DataType dataType) throws Exception {
+    private double qualToLikelihood(char c) {
+    	double x = Math.pow(10,-(double)((int) c - 33)/10);
+    	//System.out.println(x);
+		return x;
+	}
+
+	public List<Integer> getSequence(DataType dataType) throws Exception {
         
     	List<Integer> sequence;
-    	if (uncertain) {
+    	if (true) { //true=uncertain
             sequence = new ArrayList<Integer>();
             for (int i=0; i<likelihoods.length; i++) {
             	double m = likelihoods[i][0];
@@ -107,12 +146,6 @@ public class Sequence extends BEASTObject {
             	}
             	sequence.add(index);
             }
-    	}
-    	else {
-	    	String data = dataInput.get();
-	        // remove spaces
-	        data = data.replaceAll("\\s", "");
-	        sequence = dataType.string2state(data);
     	}
 
         if (totalCountInput.get() == null) {
@@ -134,6 +167,14 @@ public class Sequence extends BEASTObject {
      */
     public final String getData() {
         return dataInput.get();
+    }
+    
+    
+    /**
+     * @return the quality data of this sequence as a string.
+     */
+    public final String getQuality() {
+        return qualityInput.get();
     }
 
 
