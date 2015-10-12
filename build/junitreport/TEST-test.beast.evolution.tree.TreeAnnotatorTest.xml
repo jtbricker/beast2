@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Justins-MacBook-Pro.local" name="test.beast.evolution.tree.TreeAnnotatorTest" skipped="0" tests="2" time="0.194" timestamp="2015-10-12T21:23:47">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="BEAUti_name" value="BEAUti" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="dist" value="/Users/justinbricker/workspace/beast2/build/dist" />
+    <property name="lib" value="/Users/justinbricker/workspace/beast2/lib" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/classes" />
+    <property name="AppStore_name" value="AppStore" />
+    <property name="report" value="build/junitreport" />
+    <property name="common_dir" value="release/common" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/Users/justinbricker/Playground/src/apache-ant-1.9.6/" />
+    <property name="java.runtime.version" value="1.8.0_45-b14" />
+    <property name="main_class_BEAST" value="beast.app.beastapp.BeastMain" />
+    <property name="Mac_package_dir" value="release/Mac/BEAST" />
+    <property name="user.name" value="justinbricker" />
+    <property name="AppleSigner" value="Developer ID Application: Remco Bouckaert (LHFJWE5U63)" />
+    <property name="LogAnalyser_name" value="LogAnalyser" />
+    <property name="user.language" value="en" />
+    <property name="build" value="/Users/justinbricker/workspace/beast2/build" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib" />
+    <property name="ant.project.default-target" value="build_jar_all_BEAST" />
+    <property name="tools_dir" value="release/common/tools" />
+    <property name="ant.project.name" value="BUILD_BEAST_2" />
+    <property name="java.version" value="1.8.0_45" />
+    <property name="version" value="2.3.1" />
+    <property name="user.timezone" value="America/New_York" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="Linux_dir" value="release/Linux" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/endorsed" />
+    <property name="doc" value="/Users/justinbricker/workspace/beast2/doc" />
+    <property name="version_number" value="2.3.1" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="src" value="/Users/justinbricker/workspace/beast2/src" />
+    <property name="Mac_bundle_dir" value="release/Mac/BEAST/BEAST" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="Mac_dir" value="release/Mac" />
+    <property name="ant.file" value="/Users/justinbricker/workspace/beast2/build.xml" />
+    <property name="os.version" value="10.11" />
+    <property name="release_dir" value="release" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="25.45-b02" />
+    <property name="ant.library.dir" value="/Users/justinbricker/Playground/src/apache-ant-1.9.6//lib" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="beast1_dir" value="release/common/beast1" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="BEAST_name" value="BEAST" />
+    <property name="TreeAnnotator_name" value="TreeAnnotator" />
+    <property name="user.home" value="/Users/justinbricker" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="test" value="/Users/justinbricker/workspace/beast2/test" />
+    <property name="ant.file.BUILD_BEAST_2" value="/Users/justinbricker/workspace/beast2/build.xml" />
+    <property name="java.library.path" value="/Users/justinbricker/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="gopherProxySet" value="false" />
+    <property name="copyright" value="Beast 2 development team 2011-2015" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="java.class.path" value="/Users/justinbricker/workspace/beast2/lib/beagle.jar:/Users/justinbricker/workspace/beast2/lib/jam.jar:/Users/justinbricker/workspace/beast2/lib/colt.jar:/Users/justinbricker/workspace/beast2/lib/fest.jar:/Users/justinbricker/workspace/beast2/lib/junit-4.8.2.jar:/Users/justinbricker/workspace/beast2/lib/antlr-runtime-4.5.jar:/Users/justinbricker/workspace/beast2/build:/Users/justinbricker/Playground/src/apache-ant-1.9.6/lib/junit-4.11.jar:/Users/justinbricker/Playground/src/apache-ant-1.9.6/lib/ant-launcher.jar:/Users/justinbricker/Playground/src/apache-ant-1.9.6/lib/ant.jar:/Users/justinbricker/Playground/src/apache-ant-1.9.6/lib/ant-junit.jar:/Users/justinbricker/Playground/src/apache-ant-1.9.6/lib/ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.beast.evolution.tree.TreeAnnotatorTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/justinbricker/workspace/beast2/build/junitreport/TEST-test.beast.evolution.tree.TreeAnnotatorTest.xml crashfile=/Users/justinbricker/workspace/beast2/junitvmwatcher8163238219630487299.properties propsfile=/Users/justinbricker/workspace/beast2/junit4106317288411464317.properties" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+    <property name="sdk_dir" value="release/BEAST_SDK" />
+    <property name="junitfailed" value="true" />
+    <property name="ant.file.type.BUILD_BEAST_2" value="file" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="Linux_package_dir" value="release/Linux/beast" />
+    <property name="java.io.tmpdir" value="/var/folders/_7/hprlw3v106v8djm2d_pcm2200000gn/T/" />
+    <property name="beast_name" value="beast" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.ext.dirs" value="/Users/justinbricker/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="user.dir" value="/Users/justinbricker/workspace/beast2" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="/Users/justinbricker/workspace/beast2" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="/Users/justinbricker/Playground/src/apache-ant-1.9.6/lib/ant.jar" />
+    <property name="Windows_dir" value="release/Windows" />
+    <property name="LogCombiner_name" value="LogCombiner" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="build_jar_all_BEAST" />
+    <property name="Windows_package_dir" value="release/Windows/BEAST" />
+  </properties>
+  <testcase classname="test.beast.evolution.tree.TreeAnnotatorTest" name="testTreeScoreAndCladeSystem" time="0.129" />
+  <testcase classname="test.beast.evolution.tree.TreeAnnotatorTest" name="testTreeScoreAndCladeSystemSA" time="0.008" />
+  <system-out><![CDATA[0 => 2.5, log -2.3671236141316165
+1 => 3.0, log -1.268511325463507
+2 => 2.75, log -1.9616585060234524
+3 => 2.25, log -3.0602707946915624
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

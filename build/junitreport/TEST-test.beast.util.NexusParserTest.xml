@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="1" hostname="Justins-MacBook-Pro.local" name="test.beast.util.NexusParserTest" skipped="0" tests="4" time="0.776" timestamp="2015-10-12T21:24:06">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="BEAUti_name" value="BEAUti" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="dist" value="/Users/justinbricker/workspace/beast2/build/dist" />
+    <property name="lib" value="/Users/justinbricker/workspace/beast2/lib" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/classes" />
+    <property name="AppStore_name" value="AppStore" />
+    <property name="report" value="build/junitreport" />
+    <property name="common_dir" value="release/common" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/Users/justinbricker/Playground/src/apache-ant-1.9.6/" />
+    <property name="java.runtime.version" value="1.8.0_45-b14" />
+    <property name="main_class_BEAST" value="beast.app.beastapp.BeastMain" />
+    <property name="Mac_package_dir" value="release/Mac/BEAST" />
+    <property name="user.name" value="justinbricker" />
+    <property name="AppleSigner" value="Developer ID Application: Remco Bouckaert (LHFJWE5U63)" />
+    <property name="LogAnalyser_name" value="LogAnalyser" />
+    <property name="user.language" value="en" />
+    <property name="build" value="/Users/justinbricker/workspace/beast2/build" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib" />
+    <property name="ant.project.default-target" value="build_jar_all_BEAST" />
+    <property name="tools_dir" value="release/common/tools" />
+    <property name="ant.project.name" value="BUILD_BEAST_2" />
+    <property name="java.version" value="1.8.0_45" />
+    <property name="version" value="2.3.1" />
+    <property name="user.timezone" value="America/New_York" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="Linux_dir" value="release/Linux" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/endorsed" />
+    <property name="doc" value="/Users/justinbricker/workspace/beast2/doc" />
+    <property name="version_number" value="2.3.1" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="src" value="/Users/justinbricker/workspace/beast2/src" />
+    <property name="Mac_bundle_dir" value="release/Mac/BEAST/BEAST" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="Mac_dir" value="release/Mac" />
+    <property name="ant.file" value="/Users/justinbricker/workspace/beast2/build.xml" />
+    <property name="os.version" value="10.11" />
+    <property name="release_dir" value="release" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="25.45-b02" />
+    <property name="ant.library.dir" value="/Users/justinbricker/Playground/src/apache-ant-1.9.6//lib" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="beast1_dir" value="release/common/beast1" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="BEAST_name" value="BEAST" />
+    <property name="TreeAnnotator_name" value="TreeAnnotator" />
+    <property name="user.home" value="/Users/justinbricker" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="test" value="/Users/justinbricker/workspace/beast2/test" />
+    <property name="ant.file.BUILD_BEAST_2" value="/Users/justinbricker/workspace/beast2/build.xml" />
+    <property name="java.library.path" value="/Users/justinbricker/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="gopherProxySet" value="false" />
+    <property name="copyright" value="Beast 2 development team 2011-2015" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="java.class.path" value="/Users/justinbricker/workspace/beast2/lib/beagle.jar:/Users/justinbricker/workspace/beast2/lib/jam.jar:/Users/justinbricker/workspace/beast2/lib/colt.jar:/Users/justinbricker/workspace/beast2/lib/fest.jar:/Users/justinbricker/workspace/beast2/lib/junit-4.8.2.jar:/Users/justinbricker/workspace/beast2/lib/antlr-runtime-4.5.jar:/Users/justinbricker/workspace/beast2/build:/Users/justinbricker/Playground/src/apache-ant-1.9.6/lib/junit-4.11.jar:/Users/justinbricker/Playground/src/apache-ant-1.9.6/lib/ant-launcher.jar:/Users/justinbricker/Playground/src/apache-ant-1.9.6/lib/ant.jar:/Users/justinbricker/Playground/src/apache-ant-1.9.6/lib/ant-junit.jar:/Users/justinbricker/Playground/src/apache-ant-1.9.6/lib/ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.beast.util.NexusParserTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/justinbricker/workspace/beast2/build/junitreport/TEST-test.beast.util.NexusParserTest.xml crashfile=/Users/justinbricker/workspace/beast2/junitvmwatcher1079399077313215536.properties propsfile=/Users/justinbricker/workspace/beast2/junit7825498683332468215.properties" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+    <property name="sdk_dir" value="release/BEAST_SDK" />
+    <property name="junitfailed" value="true" />
+    <property name="ant.file.type.BUILD_BEAST_2" value="file" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="Linux_package_dir" value="release/Linux/beast" />
+    <property name="java.io.tmpdir" value="/var/folders/_7/hprlw3v106v8djm2d_pcm2200000gn/T/" />
+    <property name="beast_name" value="beast" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.ext.dirs" value="/Users/justinbricker/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="user.dir" value="/Users/justinbricker/workspace/beast2" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="/Users/justinbricker/workspace/beast2" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="/Users/justinbricker/Playground/src/apache-ant-1.9.6/lib/ant.jar" />
+    <property name="Windows_dir" value="release/Windows" />
+    <property name="LogCombiner_name" value="LogCombiner" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="build_jar_all_BEAST" />
+    <property name="Windows_package_dir" value="release/Windows/BEAST" />
+  </properties>
+  <testcase classname="test.beast.util.NexusParserTest" name="testTranslateBlock2" time="0.154" />
+  <testcase classname="test.beast.util.NexusParserTest" name="testAssumptionsParse" time="0.338" />
+  <testcase classname="test.beast.util.NexusParserTest" name="testThatNexusExamplesParse" time="0.229">
+    <failure message="[26.nex, 29.nex, 47.nex, 53.nex, 59.nex, 64.nex, 72.nex, angiosperms.nex, anolis.nex, avian-ovomucoids.nex, Darwins-finches.nex, dna.nex, Flu.nex, FPV.nex, gopher.nex, humanChimpSNP.nex, M243.nex, old.nex, primate-mtDNA-interleaved.nex, primate-mtDNA.nex, Primates.nex, protein.nex, seaview.nxs, Shankarappa.Patient9.nex, traitlab.nex]" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: [26.nex, 29.nex, 47.nex, 53.nex, 59.nex, 64.nex, 72.nex, angiosperms.nex, anolis.nex, avian-ovomucoids.nex, Darwins-finches.nex, dna.nex, Flu.nex, FPV.nex, gopher.nex, humanChimpSNP.nex, M243.nex, old.nex, primate-mtDNA-interleaved.nex, primate-mtDNA.nex, Primates.nex, protein.nex, seaview.nxs, Shankarappa.Patient9.nex, traitlab.nex]
+	at test.beast.util.NexusParserTest.testThatNexusExamplesParse(Unknown Source)
+</failure>
+  </testcase>
+  <testcase classname="test.beast.util.NexusParserTest" name="testTranslateBlock" time="0.013" />
+  <system-out><![CDATA[translation map size = 3
+(C:10.0,(B:20.0,A:30.0):10.0):0.0
+exception thrown 
+Around line 18
+null
+Test Nexus Examples in /Users/justinbricker/workspace/beast2/examples/nexus
+Processing 26.nex
+ExampleNexusParsing::Failed for 26.nex: Around line 60
+null
+Done 26.nex
+Processing 29.nex
+ExampleNexusParsing::Failed for 29.nex: Around line 60
+null
+Done 29.nex
+Processing 47.nex
+ExampleNexusParsing::Failed for 47.nex: Around line 61
+null
+Done 47.nex
+Processing 53.nex
+ExampleNexusParsing::Failed for 53.nex: Around line 60
+null
+Done 53.nex
+Processing 59.nex
+ExampleNexusParsing::Failed for 59.nex: Around line 60
+null
+Done 59.nex
+Processing 64.nex
+ExampleNexusParsing::Failed for 64.nex: Around line 60
+null
+Done 64.nex
+Processing 72.nex
+ExampleNexusParsing::Failed for 72.nex: Around line 60
+null
+Done 72.nex
+Processing angiosperms.nex
+Warning: expected datatype (e.g. something like 'format datatype=dna;') not '	format symbols = "012" ' Assuming integer dataType
+ExampleNexusParsing::Failed for angiosperms.nex: Around line 59
+null
+Done angiosperms.nex
+Processing anolis.nex
+ExampleNexusParsing::Failed for anolis.nex: Around line 36
+null
+Done anolis.nex
+Processing avian-ovomucoids.nex
+ExampleNexusParsing::Failed for avian-ovomucoids.nex: Around line 201
+null
+Done avian-ovomucoids.nex
+Processing Darwins-finches.nex
+ExampleNexusParsing::Failed for Darwins-finches.nex: Around line 45
+null
+Done Darwins-finches.nex
+Processing Dengue4.env.nex
+D4Brazi82: 1485 4
+D4ElSal83: 1485 4
+D4ElSal94: 1485 4
+D4Indon76: 1485 4
+D4Indon77: 1485 4
+D4Mexico84: 1485 4
+D4NewCal81: 1485 4
+D4Philip64: 1485 4
+D4Philip56: 1485 4
+D4Philip84: 1485 4
+D4PRico86: 1485 4
+D4SLanka78: 1485 4
+D4Tahiti79: 1485 4
+D4Tahiti85: 1485 4
+D4Thai63: 1485 4
+D4Thai78: 1485 4
+D4Thai84: 1485 4
+Alignment(null)
+  17 taxa
+  1485 sites
+  1485 patterns
+
+D4Brazi82 = 1982 (12.0)
+D4ElSal83 = 1983 (11.0)
+D4ElSal94 = 1994 (0.0)
+D4Indon76 = 1976 (18.0)
+D4Indon77 = 1977 (17.0)
+D4Mexico84 = 1984 (10.0)
+D4NewCal81 = 1981 (13.0)
+D4Philip64 = 1964 (30.0)
+D4Philip56 = 1956 (38.0)
+D4Philip84 = 1984 (10.0)
+D4PRico86 = 1986 (8.0)
+D4SLanka78 = 1978 (16.0)
+D4Tahiti79 = 1979 (15.0)
+D4Tahiti85 = 1985 (9.0)
+D4Thai63 = 1963 (31.0)
+D4Thai78 = 1978 (16.0)
+D4Thai84 = 1984 (10.0)
+Done Dengue4.env.nex
+Processing dna.nex
+ExampleNexusParsing::Failed for dna.nex: Around line 139
+null
+Done dna.nex
+Processing Flu.nex
+ExampleNexusParsing::Failed for Flu.nex: Around line 31
+null
+Done Flu.nex
+Processing FPV.nex
+ExampleNexusParsing::Failed for FPV.nex: Around line 14
+null
+Done FPV.nex
+Processing gopher.nex
+ExampleNexusParsing::Failed for gopher.nex: Around line 60
+null
+Done gopher.nex
+Processing humanChimpSNP.nex
+Warning: expected datatype (e.g. something like 'format datatype=dna;') not '	format symbols = "012" ' Assuming integer dataType
+ExampleNexusParsing::Failed for humanChimpSNP.nex: Around line 13
+null
+Done humanChimpSNP.nex
+Processing M243.nex
+ExampleNexusParsing::Failed for M243.nex: Around line 212
+null
+Done M243.nex
+Processing ML_analysis.nex
+A: 200 4
+B: 200 4
+C: 200 4
+D: 200 4
+E: 200 4
+F: 200 4
+G: 200 4
+H: 200 4
+Alignment(null)
+  8 taxa
+  200 sites
+  200 patterns
+
+Done ML_analysis.nex
+Processing MP_analysis.nex
+A: 1200 4
+B: 1200 4
+C: 1200 4
+D: 1200 4
+E: 1200 4
+F: 1200 4
+G: 1200 4
+H: 1200 4
+Alignment(null)
+  8 taxa
+  1200 sites
+  1200 patterns
+
+Filter 1-600
+8 taxa
+600 sites
+447 patterns
+Filter 601-.
+8 taxa
+600 sites
+594 patterns
+Done MP_analysis.nex
+Processing old.nex
+ExampleNexusParsing::Failed for old.nex: Around line 22
+null
+Done old.nex
+Processing primate-mtDNA-interleaved.nex
+ExampleNexusParsing::Failed for primate-mtDNA-interleaved.nex: Around line 227
+null
+Done primate-mtDNA-interleaved.nex
+Processing primate-mtDNA.nex
+ExampleNexusParsing::Failed for primate-mtDNA.nex: Around line 48
+null
+Done primate-mtDNA.nex
+Processing Primates.nex
+ExampleNexusParsing::Failed for Primates.nex: Around line 18
+null
+Done Primates.nex
+Processing protein.nex
+ExampleNexusParsing::Failed for protein.nex: Around line 51
+null
+Done protein.nex
+Processing RSV2.nex
+Alignment(null)
+  129 taxa
+  629 sites
+  629 patterns
+
+Done RSV2.nex
+Processing seaview.nxs
+ExampleNexusParsing::Failed for seaview.nxs: Around line 495
+null
+Done seaview.nxs
+Processing Shankarappa.Patient9.nex
+ExampleNexusParsing::Failed for Shankarappa.Patient9.nex: Around line 127
+null
+Done Shankarappa.Patient9.nex
+Processing traitlab.nex
+Warning: expected datatype (e.g. something like 'format datatype=dna;') not 'FORMAT MISSING=? GAP=- INTERLEAVE  ' Assuming integer dataType
+ExampleNexusParsing::Failed for traitlab.nex: Around line 20
+null
+Done traitlab.nex
+
+test_ThatNexusExamplesParse::Failed for : [26.nex, 29.nex, 47.nex, 53.nex, 59.nex, 64.nex, 72.nex, angiosperms.nex, anolis.nex, avian-ovomucoids.nex, Darwins-finches.nex, dna.nex, Flu.nex, FPV.nex, gopher.nex, humanChimpSNP.nex, M243.nex, old.nex, primate-mtDNA-interleaved.nex, primate-mtDNA.nex, Primates.nex, protein.nex, seaview.nxs, Shankarappa.Patient9.nex, traitlab.nex]
+translation map size = 7
+]]></system-out>
+  <system-err><![CDATA[java.lang.NullPointerException
+	at beast.evolution.alignment.Sequence.initProbabilities(Unknown Source)
+	at beast.evolution.alignment.Sequence.initAndValidate(Unknown Source)
+	at beast.core.BEASTInterface.init(Unknown Source)
+	at beast.util.NexusParser.parseDataBlock(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at test.beast.util.NexusParserTest.testAssumptionsParse(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+java.lang.NullPointerException
+	at beast.evolution.alignment.Sequence.initProbabilities(Unknown Source)
+	at beast.evolution.alignment.Sequence.initAndValidate(Unknown Source)
+	at beast.core.BEASTInterface.init(Unknown Source)
+	at beast.util.NexusParser.parseDataBlock(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at test.beast.util.NexusParserTest.testThatNexusExamplesParse(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+java.lang.NullPointerException
+	at beast.evolution.alignment.Sequence.initProbabilities(Unknown Source)
+	at beast.evolution.alignment.Sequence.initAndValidate(Unknown Source)
+	at beast.core.BEASTInterface.init(Unknown Source)
+	at beast.util.NexusParser.parseDataBlock(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at test.beast.util.NexusParserTest.testThatNexusExamplesParse(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+java.lang.NullPointerException
+	at beast.evolution.alignment.Sequence.initProbabilities(Unknown Source)
+	at beast.evolution.alignment.Sequence.initAndValidate(Unknown Source)
+	at beast.core.BEASTInterface.init(Unknown Source)
+	at beast.util.NexusParser.parseDataBlock(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at test.beast.util.NexusParserTest.testThatNexusExamplesParse(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+java.lang.NullPointerException
+	at beast.evolution.alignment.Sequence.initProbabilities(Unknown Source)
+	at beast.evolution.alignment.Sequence.initAndValidate(Unknown Source)
+	at beast.core.BEASTInterface.init(Unknown Source)
+	at beast.util.NexusParser.parseDataBlock(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at test.beast.util.NexusParserTest.testThatNexusExamplesParse(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+java.lang.NullPointerException
+	at beast.evolution.alignment.Sequence.initProbabilities(Unknown Source)
+	at beast.evolution.alignment.Sequence.initAndValidate(Unknown Source)
+	at beast.core.BEASTInterface.init(Unknown Source)
+	at beast.util.NexusParser.parseDataBlock(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at test.beast.util.NexusParserTest.testThatNexusExamplesParse(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+java.lang.NullPointerException
+	at beast.evolution.alignment.Sequence.initProbabilities(Unknown Source)
+	at beast.evolution.alignment.Sequence.initAndValidate(Unknown Source)
+	at beast.core.BEASTInterface.init(Unknown Source)
+	at beast.util.NexusParser.parseDataBlock(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at test.beast.util.NexusParserTest.testThatNexusExamplesParse(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+java.lang.NullPointerException
+	at beast.evolution.alignment.Sequence.initProbabilities(Unknown Source)
+	at beast.evolution.alignment.Sequence.initAndValidate(Unknown Source)
+	at beast.core.BEASTInterface.init(Unknown Source)
+	at beast.util.NexusParser.parseDataBlock(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at test.beast.util.NexusParserTest.testThatNexusExamplesParse(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+java.lang.NullPointerException
+	at beast.evolution.alignment.Sequence.initProbabilities(Unknown Source)
+	at beast.evolution.alignment.Sequence.initAndValidate(Unknown Source)
+	at beast.core.BEASTInterface.init(Unknown Source)
+	at beast.util.NexusParser.parseDataBlock(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at test.beast.util.NexusParserTest.testThatNexusExamplesParse(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+java.lang.NullPointerException
+	at beast.evolution.alignment.Sequence.initProbabilities(Unknown Source)
+	at beast.evolution.alignment.Sequence.initAndValidate(Unknown Source)
+	at beast.core.BEASTInterface.init(Unknown Source)
+	at beast.util.NexusParser.parseDataBlock(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at test.beast.util.NexusParserTest.testThatNexusExamplesParse(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+java.lang.NullPointerException
+	at beast.evolution.alignment.Sequence.initProbabilities(Unknown Source)
+	at beast.evolution.alignment.Sequence.initAndValidate(Unknown Source)
+	at beast.core.BEASTInterface.init(Unknown Source)
+	at beast.util.NexusParser.parseDataBlock(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at test.beast.util.NexusParserTest.testThatNexusExamplesParse(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+java.lang.NullPointerException
+	at beast.evolution.alignment.Sequence.initProbabilities(Unknown Source)
+	at beast.evolution.alignment.Sequence.initAndValidate(Unknown Source)
+	at beast.core.BEASTInterface.init(Unknown Source)
+	at beast.util.NexusParser.parseDataBlock(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at test.beast.util.NexusParserTest.testThatNexusExamplesParse(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+	at beast.evolution.alignment.Sequence.initProbabilities(Unknown Source)
+	at beast.evolution.alignment.Sequence.initAndValidate(Unknown Source)
+	at beast.core.BEASTInterface.init(Unknown Source)
+	at beast.util.NexusParser.parseDataBlock(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at test.beast.util.NexusParserTest.testThatNexusExamplesParse(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+java.lang.NullPointerException
+	at beast.evolution.alignment.Sequence.initProbabilities(Unknown Source)
+	at beast.evolution.alignment.Sequence.initAndValidate(Unknown Source)
+	at beast.core.BEASTInterface.init(Unknown Source)
+	at beast.util.NexusParser.parseDataBlock(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at test.beast.util.NexusParserTest.testThatNexusExamplesParse(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+java.lang.NullPointerException
+	at beast.evolution.alignment.Sequence.initProbabilities(Unknown Source)
+	at beast.evolution.alignment.Sequence.initAndValidate(Unknown Source)
+	at beast.core.BEASTInterface.init(Unknown Source)
+	at beast.util.NexusParser.parseDataBlock(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at test.beast.util.NexusParserTest.testThatNexusExamplesParse(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+java.lang.NullPointerException
+	at beast.evolution.alignment.Sequence.initProbabilities(Unknown Source)
+	at beast.evolution.alignment.Sequence.initAndValidate(Unknown Source)
+	at beast.core.BEASTInterface.init(Unknown Source)
+	at beast.util.NexusParser.parseDataBlock(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at test.beast.util.NexusParserTest.testThatNexusExamplesParse(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+	at beast.evolution.alignment.Sequence.initProbabilities(Unknown Source)
+	at beast.evolution.alignment.Sequence.initAndValidate(Unknown Source)
+	at beast.core.BEASTInterface.init(Unknown Source)
+	at beast.util.NexusParser.parseDataBlock(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at test.beast.util.NexusParserTest.testThatNexusExamplesParse(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+java.lang.NullPointerException
+	at beast.evolution.alignment.Sequence.initProbabilities(Unknown Source)
+	at beast.evolution.alignment.Sequence.initAndValidate(Unknown Source)
+	at beast.core.BEASTInterface.init(Unknown Source)
+	at beast.util.NexusParser.parseDataBlock(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at beast.util.NexusParser.parseFile(Unknown Source)
+	at test.beast.util.NexusParserTest.testThatNexusExamplesParse(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+java.lang.NullPointerException
+java.lang.NullPointerException
+]]></system-err>
+</testsuite>

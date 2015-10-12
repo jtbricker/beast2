@@ -1,0 +1,29 @@
+#
+#model:
+#
+#<?xml version="1.0" encoding="UTF-8" standalone="no"?><input id="posterior" spec="beast.core.util.CompoundDistribution">
+#    <distribution id="cyule" spec="beast.evolution.speciation.CalibratedYuleModel">
+#        <parameter name="birthRate">2.0</parameter>
+#        <calibrations id="cal" spec="beast.evolution.speciation.CalibrationPoint">
+#            <taxonset spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="a" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="b" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#            <Uniform id="Uniform" lower="4.0" name="distr" upper="7.0"/>
+#        </calibrations>
+#        <tree id="tree"/>
+#    </distribution>
+#</input>
+#
+Sample	posterior	cyule	cal	
+0	-39.38734042123269	-39.38734042123269	5.5	
+100	-18.194983009930823	-18.194983009930823	6.180344841415698	
+200	-0.3647200622676543	-0.3647200622676543	5.603175267101914	
+300	-0.9227334855889886	-0.9227334855889886	4.667744475733423	
+400	-4.529668884763151	-4.529668884763151	4.2883501044237535	
+500	-1.4944527469608175	-1.4944527469608175	4.034778267455388	
+600	-1.4377134225765111	-1.4377134225765111	4.69505147224319	
+700	-0.9751781914835647	-0.9751781914835647	4.115511510748394	
+800	0.09929937954890278	0.09929937954890278	4.284686751896191	
+900	-3.0805888603094935	-3.0805888603094935	4.279080240748646	
+1000	-1.5645213211992406	-1.5645213211992406	4.476889675178259	

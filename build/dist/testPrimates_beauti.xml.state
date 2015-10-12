@@ -1,0 +1,20 @@
+<itsabeastystatewerein version='2.0' sample='10000000'>
+<statenode id='Tree.t:testPrimates'>((((0:0.01627041611839737,(1:0.006447802237429835,2:0.006447802237429835)6:0.009822613880967536)8:0.011729089977220289,4:0.02799950609561766)9:0.021877215576507764,5:0.049876721672125424)7:0.01200040818068037,3:0.061877129852805794)10:0.0</statenode>
+<statenode id='birthRate.t:testPrimates'>birthRate.t:testPrimates[1 1] (-Infinity,Infinity): 36.078365072017164 </statenode>
+<statenode id='kappa.s:testPrimates'>kappa.s:testPrimates[1 1] (0.0,Infinity): 28.024429195499778 </statenode>
+<statenode id='freqParameter.s:testPrimates'>freqParameter.s:testPrimates[4 1] (0.0,1.0): 0.3296103091714005 0.23744238678879792 0.17209760754986356 0.26084969648993694 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"YuleBirthRateScaler.t:testPrimates","p":0.2050028020490623,"accept":111817,"reject":285735,"acceptFC":110810,"rejectFC":285520,"rejectIv":0,"rejectOp":0},
+{"id":"YuleModelTreeScaler.t:testPrimates","p":0.5982423816099736,"accept":90399,"reject":309481,"acceptFC":90213,"rejectFC":308450,"rejectIv":0,"rejectOp":0},
+{"id":"YuleModelTreeRootScaler.t:testPrimates","p":0.5310715714184645,"accept":74806,"reject":324252,"acceptFC":74602,"rejectFC":323217,"rejectIv":84163,"rejectOp":84163},
+{"id":"YuleModelUniformOperator.t:testPrimates","p":"NaN","accept":1533065,"reject":2458012,"acceptFC":1528215,"rejectFC":2450222,"rejectIv":0,"rejectOp":0},
+{"id":"YuleModelSubtreeSlide.t:testPrimates","p":0.16244019668526538,"accept":51817,"reject":1941470,"acceptFC":51788,"rejectFC":1935275,"rejectIv":891004,"rejectOp":891004},
+{"id":"YuleModelNarrow.t:testPrimates","p":"NaN","accept":62848,"reject":1932294,"acceptFC":62682,"rejectFC":1926158,"rejectIv":0,"rejectOp":0},
+{"id":"YuleModelWide.t:testPrimates","p":"NaN","accept":2086,"reject":396941,"acceptFC":2083,"rejectFC":395660,"rejectIv":221342,"rejectOp":221342},
+{"id":"YuleModelWilsonBalding.t:testPrimates","p":"NaN","accept":1147,"reject":397323,"acceptFC":1140,"rejectFC":396063,"rejectIv":203865,"rejectOp":203865},
+{"id":"KappaScaler.s:testPrimates","p":0.3165708294059585,"accept":3526,"reject":9733,"acceptFC":3499,"rejectFC":9713,"rejectIv":0,"rejectOp":0},
+{"id":"FrequenciesExchanger.s:testPrimates","p":0.0639307061752369,"accept":3857,"reject":9392,"acceptFC":3819,"rejectFC":9377,"rejectIv":0,"rejectOp":0}
+]}
+-->
